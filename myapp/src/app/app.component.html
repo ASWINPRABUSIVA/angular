@@ -1,0 +1,11 @@
+<h1>{{fullname}}</h1>
+<input type="text" [(ngModel)]="fullname">
+
+<img [src]="imageurl" alt="i am image">
+
+<h1 [innerText]="title"> </h1>
+<p [textContent]="user?.name"></p>
+
+<h1>clicked {{clickcount}} times</h1>
+<button (click)="clickme()">click me +1</button>
+<button (click)="clickme2()">click me -1</button>
