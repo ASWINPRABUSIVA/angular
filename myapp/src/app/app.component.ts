@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { RouterOutlet } from '@angular/router';
+import { CounterComponent } from './03-Signals/counter/counter.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet ,FormsModule],
+  imports: [FormsModule, CounterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
