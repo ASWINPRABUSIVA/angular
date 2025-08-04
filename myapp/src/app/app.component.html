@@ -10,3 +10,25 @@
 <button (click)="clickme()">click me +1</button>
 <button (click)="clickme2()">click me -1</button>
 <app-counter></app-counter>
+
+<h1>ngfor example</h1>
+
+<ul>
+    <li *ngFor="let move of moves">{{move}}</li>
+</ul>
+<h1> index example </h1>
+<ul>
+    <li *ngFor="let fruit of fruits; let i = index">
+       {{i+1}} {{fruit}}
+
+    </li>
+</ul>
+
+<h1> first and last  example </h1>
+<ul>
+    <li *ngFor="let fruit of fruits; let isFirst is first;">
+       <strong *ngIf="isFirst">First:</strong>
+        {{fruit}}
+
+    </li>
+</ul>
