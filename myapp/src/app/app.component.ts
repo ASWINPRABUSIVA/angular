@@ -48,7 +48,7 @@ export class AppComponent implements OnInit {
     `date`,
     `elderberry`,
     `fig`,
-    `grape`
+    
   ]
 
 
